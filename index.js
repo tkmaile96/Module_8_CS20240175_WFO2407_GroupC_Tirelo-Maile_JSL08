@@ -36,7 +36,10 @@ console.log(branchA.getBranchInfo());
 
 //second instance
 const branchB = new BankBranch({name: "Second Branch", address: "480 Acornhoek"});
-console.log(branchB.getBranchInfo());
+console.log(branchB.getBranchInfo()); // results should log "name: Main Branch, Address: Madiba Drive"
+
+// Third instance
+
 
 //    - Create instances of the `BankBranch` class, such as `branchA` and `branchB`, with different branch information.
 //    - Use the `getBranchInfo` method to retrieve branch information from the instances.
