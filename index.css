@@ -2,15 +2,16 @@
 body, p {
     margin: 0;
     padding: 0;
-    background-color: black;
+    background-color: #484343;
     
 }
 
 body {
     background-image: url('manager.gif');
-    background-size: cover;
+    background-size:cover;
     background-repeat: no-repeat;
-    background-attachment: fixed; /* Optional: Keeps the background fixed */
+    background-attachment:fixed; /* Optional: Keeps the background fixed */
+    
 }
 
 
